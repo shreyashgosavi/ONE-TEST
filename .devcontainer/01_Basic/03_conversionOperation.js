@@ -32,3 +32,28 @@ let stringNumber = String(number)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+// -----------------operation------------------------
+
+let str1 = "hi"
+let str2 = " abc"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" +2 + 2);
+console.log(1 + 2 + "2");
+
+console.log((3 +5) * 4 % 2);
+
+console.log(+true);//this work
+//console.log(true+); this not work
+//console.log(+"");
+
+let gameCounter = 10
+gameCounter++;
+console.log(gameCounter);
+
+
+
